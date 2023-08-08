@@ -81,9 +81,9 @@ function Submit() {
     old_p.push(password);
     localStorage.setItem("Passwords", JSON.stringify(old_p));
     
-    var old_d = JSON.parse(localStorage.getItem("DOBs"));
+    var old_d = JSON.parse(localStorage.getItem("DOB"));
     old_d.push(dob);
-    localStorage.setItem("DOBs", JSON.stringify(old_d));
+    localStorage.setItem("DOB", JSON.stringify(old_d));
 
 
     // Clear input fields
